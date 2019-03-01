@@ -2,27 +2,18 @@
   display: none;
 }
 body{
-  background-image: url("https://ak2.picdn.net/shutterstock/videos/742762/thumb/4.jpg");
-  background-size:cover;
+  background-image: url("https://ak7.picdn.net/shutterstock/videos/2383847/thumb/1.jpg");
+   background-size:cover;
   background-repeat:no-repeat;
 }
 #font1{
-  font-family:Sedgwick Ave Display;
-  font-size:200px;
+  font-family:Cinzel;
+  font-size:150px;
   color:white;
-  text-shadow: 10px 10px 10px #201F1E;
   margin-left: 21.5%;
 }
-button{
-padding:10px;
-  margin-left: 43.5%;
-  width: 100px;
-   height: 100px;
-   padding: 40px 46px;
-   border-radius: 65px;
-   font-size: 54px;
-   line-height: 1.33;
-   text-shadow: 10px 10px 10px red;
-   padding-left: 25px;
-   padding-top: 8px;
-}
+
+ button:hover{
+   color:red;
+   text-shadow:10px 10px 10px red;
+ }
