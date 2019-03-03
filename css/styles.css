@@ -1,5 +1,6 @@
-#fade{
+#faded{
   display: none;
+  color: white;
 }
 body{
   background-image: url("https://ak7.picdn.net/shutterstock/videos/2383847/thumb/1.jpg");
