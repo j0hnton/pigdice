@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $("#click1").click(function(){
+    $("div#instructions").toggle(1000)
+  })
+  $("#begin").click(function(){
+    $("#form").toggle(2000)
+  })
+  $("button#start").click(function(){
+    $("#game").toggle(2000)
+    $("#form").toggle()
+    $("#head").toggle()
+    $("#begin").toggle()
+    })
+  })

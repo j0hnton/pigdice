@@ -6,15 +6,15 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">    <title></title>
-  </head>
+<link href="https://fonts.googleapis.com/css?family=Orbitron|Source+Code+Pro" rel="stylesheet">  </head>
   <body>
-  <span id="font1"<h1>PIG DICE</h1></span>
-    <br><br>
-    <br><br>
-    <br><br>
 
-  <div id="faded">  <h1>Instructions</h1>
+  <h1 id="header">PIG DICE</h1>
+
+    <h1 id="click1">!nstructions</h1>
+    <br><br>
+    <br><br>
+    <div id="instructions">
     <p>Number of Players
        The game of Pig is best with two players, but it can work with more people. Just keep in mind that the downtime between turns grows longer with each additional player, which could be challenging for the little ones.
 
@@ -32,21 +32,26 @@
 
       Example 2: Craig rolls a 6 and decides to continue. He then chooses to roll four more times, getting a 3, 4, 2, and 6. He decides to hold (and not take a chance of getting a 1). Craig earns 21 points for this turn (6+3+4+2+6 = 21).</p>
 </div>
-
-
+<br><br>
+<span id="begin">Start</span>
+<br><br>
+<div id="form">
     <form >
       <p>PLAYER 1</p>
          <input type="text"id="name" value="">
     <br><br>
 
     <p>PLAYER 2</p>
-       <input type="text"id="name" value="">
-    <button type="button" class="btn btn-warning" id="start">SUBMIT</button>
+       <input type="text"id="name2" value="">
+       <br><br>
+    <button type="button" class="btn btn-default" id="start">SUBMIT</button>
   </form>
+</div>
 
+<div id="game">
   <div id="board">
   <p id="name1"></p>
-  <h1>YOUR SCORE.</h1>
+  <h3>YOUR SCORE.</h3>
   <br><br>
   <br><br>
   <span id="score1">0</span>
@@ -54,17 +59,21 @@
   <div>
 
 <div id="board2">
-  <p id="name"></p>
-  <h1>YOUR SCORE.</h1>
+  <p id="name2"></p>
+  <h3>YOUR SCORE.</h3>
   <br><br>
   <br><br>
   <span id="score2">0</span>
   <span id="accumulate2"></span>
 </div>
 
-
-  <button type="button" name="button">HOLD</button>
-  <button type="button" name="button">ROLL</button>
+<div id="buttons">
+  <button type="button" name="button" class="btn btn-default" id="start1">HOLD</button>
+  <br><br>
+  <button type="button" name="button" class="btn btn-default" id="start2">ROLL</button>
+  <br><br>
+  <button type="reset" name="button" class="btn btn-default" id="start3" >NEW GAME</button>
+</div>
 
   </body>
 </html>

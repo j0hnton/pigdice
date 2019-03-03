@@ -1,4 +1,122 @@
+#instructions{
+  display: none;
+  background-color:black;
+  opacity:0.7;
+  color: #0BAB09;
+  font-family:Source Code Pro;
+}
+#click1{
+  cursor:help;
+  background-color:black;
+ font-size: 300%;
+ font-family: Source Code Pro;
+ float: right;
+ color:white;
+ text-shadow:3px 3px 4px  #0BAB09;
+
+
+}
+#click1:hover{
+  background-color:black;
+  box-shadow:1px 1px 1px #0BAB09;
+ font-family: Source Code Pro;
+ font-size: 302%;
+}
+
+#form{
+  display:none;
+  float:right;
+
+}
+#game{
+  display:none;
+}
+#header{
+  font-family: Orbitron;
+  font-size:900%;https://images.alphacoders.com/581/thumb-1920-581072.jpg;
+  color:white;
+  text-shadow:6px 6px 50px #0BAB09;
+  margin-left:33.5%;
+
+}
+body{
+  background-image: url(https://wallpapermemory.com/uploads/613/dice-wallpaper-hd-1600x900-423171.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#begin{
+  font-family: Orbitron;
+  color:white;
+  font-size:300%;
+  font-family:Source Code Pro;
+  float: right;
+  text-shadow: 3px 3px 4px  #0BAB09;
+
+
+}
+#begin:hover{
+  box-shadow:1px 1px 1px #0BAB09;
+  cursor:grab;
+  font-size:302%;
+
+}
+p{
+  color:#0BAB09;
+ font-family: Source Code Pro;
+}
+#start{
+  color: #0BAB09;
+  font-family:Source Code Pro;
+
+}
+#start:hover{
+  box-shadow:5px 5px 100px  #0BAB09;
+  font-family:Source Code Pro;
+}
+#board1{
+background-color: black;
+opacity: 0.8;
+
+}
 #board2{
   float:right;
- padding-bottom: 20px;
+  background-color:  #0BAB09;
+  opacity: 0.8;
+  color:black;
+}
+#buttons{
+  margin-left: 35%;
+
+}
+#start1{
+  color: #0BAB09;
+  font-family:Source Code Pro;
+
+}
+#start1:hover{
+    box-shadow:5px 5px 100px  #0BAB09;
+    font-family:Source Code Pro;
+
+}
+
+#start2{
+  color: #0BAB09;
+  font-family:Source Code Pro;
+
+}
+#start2:hover{
+    box-shadow:5px 5px 100px  #0BAB09;
+    font-family:Source Code Pro;
+
+}
+#start3{
+  color: #0BAB09;
+  font-family:Source Code Pro;
+
+}
+#start3:hover{
+    box-shadow:5px 5px 100px  #0BAB09;
+    font-family:Source Code Pro;
+
 }
