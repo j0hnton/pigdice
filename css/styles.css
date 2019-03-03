@@ -1,20 +1,4 @@
-#faded{
-  display: none;
-  color: white;
+#board2{
+  float:right;
+ padding-bottom: 20px;
 }
-body{
-  background-image: url("https://ak7.picdn.net/shutterstock/videos/2383847/thumb/1.jpg");
-   background-size:cover;
-  background-repeat:no-repeat;
-}
-#font1{
-  font-family:Cinzel;
-  font-size:150px;
-  color:white;
-  margin-left: 21.5%;
-}
-
- button:hover{
-   color:red;
-   text-shadow:10px 10px 10px red;
- }
