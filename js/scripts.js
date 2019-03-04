@@ -40,11 +40,19 @@ $(document).ready(function(){
 }
 // HOLD1
 function hold(){
-const scores=scores1.reduce(add);
+const scoresA=scores1.reduce(add);
 function add(accumulator, a) {
   return accumulator + a;
 }
-document.getElementById("score1").innerHTML=scores;
+document.getElementById("score1").innerHTML=scoresA;
+if(scoresA>99){
+  alert("PLAYER 1 WINS")
+
+
+}
+else {
+
+}
 }
 
 // ROLL2
@@ -74,4 +82,11 @@ function add(accumulator, a) {
 }
 
 document.getElementById("score2").innerHTML=scores;
+if(scores>99){
+  alert("PLAYER 2 WINS")
+
+}
+else {
+
+}
 }
