@@ -134,7 +134,8 @@ h1{
 }
 #score2{
   color:green;
-
+  font-size: 400%;
+  font-family: Orbitron;
 }
 audio{
   display:none;

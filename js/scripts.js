@@ -16,17 +16,19 @@ $(document).ready(function(){
   })
   // BUSINESS LOGIC
   // ROLL1
+
+
   var scores1=[];
   function roll() {
   var side = Math.floor((Math.random() * 6) + 1);
-  scores1.push(side);
+   var sum=scores1.push(side);
   var name= $("input#name").val();
   document.getElementById("value").innerHTML =scores1;
   document.getElementById("name0").innerHTML =name;
   if(side==1){
     $("#board2").toggle(700);
     $("#board").toggle(700);
-      scores1.length=0;
+    scores1.length=0;
   }
   else{
 
@@ -34,9 +36,8 @@ $(document).ready(function(){
 }
 // HOLD1
 function hold(){
-    var side = Math.floor((Math.random() * 6) + 1);
-    var hold=side;
-document.getElementById("score1").innerHTML=hold;
+
+document.getElementById("score1").innerHTML=add;
 }
 
 // ROLL2
