@@ -1,5 +1,5 @@
 # PIG DICE
-#### This is an online dice game. 1/3/2019
+#### This is an online dice roll game. 1/3/2019
 ![alt text](https://captureschool.net/wp-content/uploads/2013/10/kenbrucedice.jpg)
 #### By **JOHN KYALO**
 ## Description
