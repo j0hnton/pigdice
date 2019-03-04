@@ -8,7 +8,7 @@
 #click1{
   cursor:help;
   background-color:black;
- font-size: 300%;
+ font-size: 200%;
  font-family: Source Code Pro;
  float: right;
  color:white;
@@ -20,7 +20,7 @@
   background-color:black;
   box-shadow:1px 1px 1px #0BAB09;
  font-family: Source Code Pro;
- font-size: 302%;
+ font-size: 202%;
 }
 
 #form{
@@ -29,7 +29,10 @@
 
 }
 #game{
-  display:none;
+  display:none;bo
+
+  border-color: #0BAB09 solid;
+  border-bottom: 20px;
 }
 #header{
   font-family: Orbitron;
@@ -48,7 +51,7 @@ body{
 #begin{
   font-family: Orbitron;
   color:white;
-  font-size:300%;
+  font-size:200%;
   font-family:Source Code Pro;
   float: right;
   text-shadow: 3px 3px 4px  #0BAB09;
@@ -58,7 +61,7 @@ body{
 #begin:hover{
   box-shadow:1px 1px 1px #0BAB09;
   cursor:grab;
-  font-size:302%;
+  font-size:202%;
 
 }
 p{
@@ -77,18 +80,11 @@ p{
 #board1{
 background-color: black;
 opacity: 0.8;
+margin-left: 30%;
+
 
 }
-#board2{
-  float:right;
-  background-color:  #0BAB09;
-  opacity: 0.8;
-  color:black;
-}
-#buttons{
-  margin-left: 35%;
 
-}
 #start1{
   color: #0BAB09;
   font-family:Source Code Pro;
@@ -113,10 +109,26 @@ opacity: 0.8;
 #start3{
   color: #0BAB09;
   font-family:Source Code Pro;
+  margin-left: 32%;
 
 }
 #start3:hover{
     box-shadow:5px 5px 100px  #0BAB09;
     font-family:Source Code Pro;
 
+}
+h3{
+  color:white;
+  font-family: Source Code Pro;
+  text-shadow: 2px 2px 5px  #0BAB09;
+}
+#buttons{
+  margin-left:30%;
+}
+#buttons2{
+  float:right;
+  margin-right:20%;
+}
+p{
+  font-size:150%;
 }

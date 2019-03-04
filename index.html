@@ -33,8 +33,9 @@
       Example 2: Craig rolls a 6 and decides to continue. He then chooses to roll four more times, getting a 3, 4, 2, and 6. He decides to hold (and not take a chance of getting a 1). Craig earns 21 points for this turn (6+3+4+2+6 = 21).</p>
 </div>
 <br><br>
-<span id="begin">Start</span>
+<span id="begin">Play</span>
 <br><br>
+
 <div id="form">
     <form >
       <p>PLAYER 1</p>
@@ -44,36 +45,45 @@
     <p>PLAYER 2</p>
        <input type="text"id="name2" value="">
        <br><br>
-    <button type="button" class="btn btn-default" id="start">SUBMIT</button>
+    <button type="button" class="btn btn-default" id="start">Start</button>
   </form>
 </div>
-
+<div class="container">
 <div id="game">
+  <div class="col-md-6">
   <div id="board">
   <p id="name1"></p>
   <h3>YOUR SCORE.</h3>
-  <br><br>
-  <br><br>
   <span id="score1">0</span>
-  <span id="accumulate"></span>
-  <div>
+  <span id="accumulate"><p>Your Roll</p></span>
+</div>
 
+
+    <div id="buttons">
+      <button type="button" name="button" class="btn btn-default" id="start1">HOLD</button>
+      <button type="button" name="button" class="btn btn-default" id="start2">ROLL</button>
+    </div>
+  </div>
+
+<div class="col-md-6">
 <div id="board2">
   <p id="name2"></p>
   <h3>YOUR SCORE.</h3>
-  <br><br>
-  <br><br>
   <span id="score2">0</span>
-  <span id="accumulate2"></span>
+  <br><br>
+  <span id="accumulate2"><p>Your Roll</p></span>
 </div>
 
-<div id="buttons">
+
+<div id="buttons2">
   <button type="button" name="button" class="btn btn-default" id="start1">HOLD</button>
-  <br><br>
   <button type="button" name="button" class="btn btn-default" id="start2">ROLL</button>
-  <br><br>
   <button type="reset" name="button" class="btn btn-default" id="start3" >NEW GAME</button>
+
 </div>
+</div>
+  </div>
+
 
   </body>
 </html>
