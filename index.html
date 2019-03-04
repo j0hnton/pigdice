@@ -9,9 +9,9 @@
 <link href="https://fonts.googleapis.com/css?family=Orbitron|Source+Code+Pro" rel="stylesheet">  </head>
   <body>
 
-  <h1 id="header">PIG DICE</h1>
+  <h1 id="header">P!g D!ce</h1>
 
-    <h1 id="click1">!nstructions</h1>
+    <h1 id="click1">Rules</h1>
     <br><br>
     <br><br>
     <div id="instructions">
@@ -43,47 +43,48 @@
     <br><br>
 
     <p>PLAYER 2</p>
-       <input type="text"id="name2" value="">
+       <input type="text"id="name1" value="">
        <br><br>
     <button type="button" class="btn btn-default" id="start">Start</button>
   </form>
 </div>
 <div class="container">
 <div id="game">
-  <div class="col-md-6">
-  <div id="board">
-  <p id="name1"></p>
-  <h3>YOUR SCORE.</h3>
-  <span id="score1">0</span>
+  <div class="col-md-6" id="move">
+      <div id="board">
+  <h3>Your Score.</h3>
+  <p id="name0"></p>
+  <span id="score1"></span>
+  <br><br>
   <span id="accumulate"><p>Your Roll</p></span>
+  <p id="value"></p>
+  <button onclick="hold()" id="start0">Hold</button>
+  <button onclick="roll()" id="start1">Roll</button>
+
+</div>
+</div>
 </div>
 
-
-    <div id="buttons">
-      <button type="button" name="button" class="btn btn-default" id="start1">HOLD</button>
-      <button type="button" name="button" class="btn btn-default" id="start2">ROLL</button>
-    </div>
-  </div>
-
-<div class="col-md-6">
 <div id="board2">
-  <p id="name2"></p>
-  <h3>YOUR SCORE.</h3>
-  <span id="score2">0</span>
+<div class="col-md-6">
+  <h3>Your Score.</h3>
+    <p id="name1"></p>
+  <span id="score2"></span>
   <br><br>
   <span id="accumulate2"><p>Your Roll</p></span>
+  <p id="value2"></p>
+
+<p id="lose"></p>
+
+
+  <button onclick="hold0()" id="start1">Hold</button>
+  <button onclick="roll0()" id="start2">Roll</button>
+
 </div>
-
-
-<div id="buttons2">
-  <button type="button" name="button" class="btn btn-default" id="start1">HOLD</button>
-  <button type="button" name="button" class="btn btn-default" id="start2">ROLL</button>
-  <button type="reset" name="button" class="btn btn-default" id="start3" >NEW GAME</button>
 
 </div>
 </div>
   </div>
-
 
   </body>
 </html>
