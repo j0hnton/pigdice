@@ -6,7 +6,6 @@ $(document).ready(function(){
   $("#begin").click(function(){
     $("#form").toggle(2000)
     $("#begin").toggle(500)
-    $("audio").toggle()
   })
   $("button#start").click(function(){
     $("#game").toggle(2000)
@@ -47,7 +46,7 @@ var side1 = Math.floor((Math.random() * 6) + 1);
 scores1.push(side1);
 var name1= $("input#name1").val();
 document.getElementById("value2").innerHTML =scores1;
-document.getElementById("name1").innerHTML =name1;
+document.getElementById("name2").innerHTML =name1;
 if(side1==1){
   $("#board2").toggle(700);
   $("#board").toggle(700);

@@ -129,9 +129,12 @@ h1{
 }
 #score1{
   color:red;
+  font-family: Orbitron;
+  font-size: 400%;
 }
 #score2{
   color:green;
+
 }
 audio{
   display:none;
@@ -148,4 +151,12 @@ audio{
 }
 #lose{
   display:none;
+}
+#name0{
+  font-family: Orbitron;
+  font-size:300%;
+}
+#name2{
+  font-family: Orbitron;
+  font-size:300%;
 }
