@@ -27,7 +27,6 @@ $(document).ready(function(){
   if(side==1){
     $("#board2").toggle(700);
     $("#board").toggle(700);
-    $("#lose").toggle(700);
     scores1.length=0;
   }
   else{
