@@ -60,7 +60,6 @@ else{
 }
 // HOLD2
 function hold0(){
-    var side = Math.floor((Math.random() * 6) + 1);
-    var hold=side;
+  
 document.getElementById("score2").innerHTML=hold;
 }
