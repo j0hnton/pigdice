@@ -42,7 +42,7 @@ function add(accumulator, a) {
   return accumulator + a;
 }
 document.getElementById("score1").innerHTML=scoresA;
-if(scoresA>9){
+if(scoresA>99){
   alert("PLAYER 1 WINS")
 }
 else {
@@ -72,7 +72,7 @@ function add(accumulator, a) {
     return accumulator + a;
 }
 document.getElementById("score2").innerHTML=scores;
-if(scores>9){
+if(scores>99){
   alert("PLAYER 2 WINS")
 }
 else {
