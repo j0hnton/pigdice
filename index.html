@@ -12,8 +12,7 @@
   <h1 id="header">P!g D!ce</h1>
 
     <h1 id="click1">Rules</h1>
-    <br><br>
-    <br><br>
+
     <div id="instructions">
     <p>Number of Players
        The game of Pig is best with two players, but it can work with more people. Just keep in mind that the downtime between turns grows longer with each additional player, which could be challenging for the little ones.
@@ -31,60 +30,59 @@
       Example 1: Sherri rolls a 3 and decides to continue rolling. She rolls seven more times, getting a 6, 6, 6, 4, 5, 6, and then 1. Because she rolled a 1, Sherri's turn is over and she earns 0 points for this turn.
 
       Example 2: Craig rolls a 6 and decides to continue. He then chooses to roll four more times, getting a 3, 4, 2, and 6. He decides to hold (and not take a chance of getting a 1). Craig earns 21 points for this turn (6+3+4+2+6 = 21).</p>
-</div>
-<br><br>
-<span id="begin">Play</span>
-<br><br>
+    </div>
+      <br><br>
+      <br><br>
+       <span id="begin">Play</span>
+      <br><br>
 
-<div id="form">
-    <form >
-      <p>PLAYER 1</p>
-         <input type="text"id="name" value="">
-    <br><br>
+     <div id="form">
+       <form >
+         <p>PLAYER 1</p>
+           <input type="text"id="name" value="">
+      <br><br>
 
-    <p>PLAYER 2</p>
-       <input type="text"id="name1" value="">
-       <br><br>
+         <p>PLAYER 2</p>
+           <input type="text"id="name1" value="">
+      <br><br>
+
     <button type="button" class="btn btn-default" id="start">Start</button>
-  </form>
-</div>
-<div class="container">
-<div id="game">
-  <div class="col-md-6" id="move">
-      <div id="board">
-  <h3>Your Score.</h3>
-  <h6 id="name0"></h6>
-  <span id="score1"></span>
-  <br><br>
-  <span id="accumulate"><p>Your Roll</p></span>
-  <p id="value"></p>
-  <button class="btn btn-default" onclick="hold()" id="start0">Hold</button>
-  <button class="btn btn-default" onclick="roll()" id="start1">Roll</button>
-  
+       </form>
+      </div>
 
-</div>
-</div>
-</div>
+      <div class="container">
+       <div id="game">
+        <div class="col-md-6" id="move">
+         <div id="board">
+          <h3>Player 1</h3>
+           <h6 id="name0"></h6>
+      <span id="score1"></span>
 
-<div id="board2">
-<div class="col-md-6">
-  <h3>Your Score.</h3>
-    <h6 id="name2"></h6>
-  <span id="score2"></span>
-  <br><br>
-  <span id="accumulate2"><p>Your Roll</p></span>
-  <p id="value2"></p>
+     <span id="accumulate"><p>Your Roll</p></span>
+       <p id="value"></p>
 
+          <button class="btn btn-default" onclick="hold()" id="start0">Hold</button>
+           <button class="btn btn-default" onclick="roll()" id="start1">Roll</button>
 
+         </div>
+        </div>
+       </div>
+    <div id="board2">
+      <div class="col-md-6">
+         <h3>Player 2</h3>
+          <h6 id="name2"></h6>
+      <span id="score2"></span>
 
-  <button class="btn btn-default" onclick="hold0()" id="start0">Hold</button>
-  <button class="btn btn-default" onclick="roll0()" id="start1">Roll</button>
+     <span id="accumulate2"><p>Your Roll</p></span>
+     <p id="value2"></p>
 
-</div>
+         <button class="btn btn-default" onclick="hold0()" id="start0">Hold</button>
+         <button class="btn btn-default" onclick="roll0()" id="start1">Roll</button>
 
-</div>
-</div>
-  </div>
+       </div>
+      </div>
+     </div>
+   </div>
 
   </body>
 </html>

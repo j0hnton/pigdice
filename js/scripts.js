@@ -20,8 +20,6 @@ $(document).ready(function(){
   })
   // BUSINESS LOGIC
   // ROLL1
-
-
   var scores1=[];
   function roll() {
   var side = Math.floor((Math.random() * 6) + 1);
@@ -35,7 +33,6 @@ $(document).ready(function(){
     scores1.length=0;
   }
   else{
-
   }
 }
 // HOLD1
@@ -45,16 +42,12 @@ function add(accumulator, a) {
   return accumulator + a;
 }
 document.getElementById("score1").innerHTML=scoresA;
-if(scoresA>99){
+if(scoresA>9){
   alert("PLAYER 1 WINS")
-
-
 }
 else {
-
 }
 }
-
 // ROLL2
 var scores2=[];
 function roll0() {
@@ -70,23 +63,18 @@ if(side2==1){
   scores2.length=0;
 }
 else{
-
 }
 }
 // HOLD2
 function hold0(){
   const scores=scores2.reduce(add);
-
 function add(accumulator, a) {
     return accumulator + a;
 }
-
 document.getElementById("score2").innerHTML=scores;
-if(scores>99){
+if(scores>9){
   alert("PLAYER 2 WINS")
-
 }
 else {
-
 }
 }
